@@ -58,4 +58,4 @@ app.get('/', (_, response) => {
   return response.json({message: 'Hello, I am here!'})
 })
 
-server.listen(3333)
+server.listen()
